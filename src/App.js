@@ -47,7 +47,7 @@ function App() {
   const [questions, setQuestions] = useState(QUESTIONS);
   const [current, setCurrent] = useState(0);
   const [currentAnswer, setCurrentAnswer] = useState("");
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [resultsShown, setResultsShown] = useState(false);
   function handleAnswer(e) {
     setCurrentAnswer(e.target.value);
